@@ -37,7 +37,7 @@ public class HttpEmailQQ {
 	           // email.addTo("2602723161@qq.com","utf-8");//测试邮箱 聪
 	            System.out.println(email.getHostName());
 	            System.out.println(email.getSmtpPort());
-	            String res = email.send();// 发送邮件
+	            email.send();// 发送邮件
 	            System.out.println("成功");
 	        } catch (Exception e) {
 	            System.err.println("邮件发送失败");
