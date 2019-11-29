@@ -13,7 +13,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		Logger logger= LoggerFactory.getLogger(DemoApplication.class);
-		logger.info("我们是一个测试的");
+		logger.info("我们是一个测试的12");
 		System.out.println("程序启动");
 		SpringApplication.run(DemoApplication.class, args);
 	}
